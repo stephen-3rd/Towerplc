@@ -1,0 +1,47 @@
+
+.product-main{
+    width: 90%;
+    margin: auto;
+}
+.ser1{
+    border: 3px solid orange;
+    margin: 20px auto;
+}
+.ser1 h1{
+    text-align: center;
+    color: orange;
+    margin: 20px;
+}
+.ser-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pic1{
+    border: 1px solid;
+    width: 32%;
+    margin: 20px auto;
+}
+.pic1 img{
+    width: 100%;
+}
+.butn{
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+}
+.ser1 a{
+    text-decoration: none;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+.ser1 a:hover{
+    color: #fff;
+    background-color: orange;
+    border: 2px solid #fff;
+}
+

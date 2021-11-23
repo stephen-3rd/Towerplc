@@ -1,0 +1,77 @@
+*{
+    /* border: 1px solid; */
+}
+@media screen and (min-width:600px){
+    .roofimgtext{
+        border: 3px solid orange;
+        width: 90%;
+        margin:20px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .roofimg1{
+        width: 40%;
+    }
+    .kitimg1{
+        width: 30%;
+    }
+    .kitimg1 img{
+        width: 100%;
+    }
+    .roofimg1 img{
+        width: 100%;
+    }
+    .rooftext1{
+        border-left: 3px solid orange;
+        padding: 20px;
+        width: 50%;
+        /* margin:10px auto; */
+    }
+    .rooftext1 h1{
+        margin: 10px auto;
+        color: orange;
+    }
+    .rooftext1 p{
+        margin: 16px auto;
+    }
+}
+@media screen and (max-width:599px){
+    .roofimgtext{
+        border: 2px solid orange;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    .roofimg1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .kitimg1{
+        width: 30%;
+    }
+    .kitimg1 img{
+        width: 100%;
+    }
+    .roofimg1 img{
+        width: 100%;
+    }
+    .rooftext1{
+        padding: 20px;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        /* margin:10px auto; */
+    }
+    .rooftext1 h1{
+        margin: 10px auto;
+        color: orange;
+    }
+    .rooftext1 p{
+        margin: 16px auto;
+    }
+}
